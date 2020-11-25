@@ -55,12 +55,19 @@ margin-top: 30px;
   margin: 50px;  
   border-radius: 50%;
   box-shadow: 0 0 20px 0 yellow;
+  transition: 1s;
+}
+.seccion_img:hover {
+  transform: scale(1.3);
+  transition: 1s;
+    box-shadow: 0 0 30px 0 red;
+
 }
 .img_fluid {
   padding: 50px;
   width: 300px;
   padding: 0;
-  margin: 50px;
+  margin: 50px 0;
 }
 h3 {
   padding: 5px;
